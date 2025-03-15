@@ -43,9 +43,9 @@ class _HomePageState extends State<HomePage> {
             child: ClipOval(
               child: Image.asset(
                 'img/header.jpg',
-                width: 150, // Sesuaikan ukuran lingkaran
-                height: 150, // Sesuaikan ukuran lingkaran
-                fit: BoxFit.contain, // Pastikan gambar tidak diperbesar paksa
+                width: 150,
+                height: 150,
+                fit: BoxFit.contain,
               ),
             ),
           ),
